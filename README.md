@@ -1,1 +1,1 @@
-# model_indepe.dent_RC
+# model_independent_RC
