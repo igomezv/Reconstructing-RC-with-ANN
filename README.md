@@ -46,3 +46,19 @@ If you use this work in your research, please cite:
   volume={},
   pages={}
 }
+```
+
+```bibtex
+@article{nnogada,
+  title={Neural networks optimized by genetic algorithms in cosmology},
+  author={Gómez-Vargas, I. and Andrade, J. B. and Vázquez, J. A.},
+  journal={Physical Review D},
+  volume={107},
+  number={4},
+  pages={043509},
+  year={2023},
+  publisher={American Physical Society},
+  doi={https://doi.org/10.1103/PhysRevD.107.043509},
+  url={https://doi.org/10.48550/arXiv.2209.02685}
+}
+```
