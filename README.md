@@ -1,1 +1,2 @@
-# model_independent_RC
+# Reconstructing rotation curves with neuronal networks
+
