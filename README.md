@@ -4,7 +4,7 @@ This repository presents a novel approach to reconstructing galaxy rotation curv
 
 ## Overview
 
-Galaxy rotation curves are critical for understanding the mass distribution within galaxies. Traditional methods of analyzing these curves often involve extensive manual effort and subjective judgment. Our project introduces a machine-learning-based approach to automate and enhance the accuracy of rotation curve reconstruction.
+Galaxy rotation curves are critical for understanding the mass distribution within galaxies. Traditional methods of analyzing these curves often involve extensive manual effort. Our project introduces a machine-learning approach to generate rotation curve reconstructions based on the observational data.
 
 ## Repository Contents
 
