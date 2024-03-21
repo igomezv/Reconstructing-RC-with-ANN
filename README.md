@@ -15,8 +15,8 @@ Galaxy rotation curves are critical for understanding the mass distribution with
 - **data**: This directory hosts the original observational data of rotational curves from the THINGS survey, kindly provided by Prof. Erwing De Blok.
   
   ### Data References
-  - Carlos R. Argüelles and Santiago Collazo. "Galaxy rotation curve fitting using machine learning tools." *Universe*, 9(8):372, 2023.
-  - Connor J. Stone, Nikhil Arora, Stéphane Courteau, and Jean-Charles Cuillandre. "Autoprof–I. An automated non-parametric light profile pipeline for modern galaxy surveys." *Monthly Notices of the Royal Astronomical Society*, 508(2):1870–1887, 2021.
+  - Walter, F., Brinks, E., De Blok, W. J. G., Bigiel, F., Kennicutt, R. C., Thornley, M. D., & Leroy, A. (2008). THINGS: The H i nearby galaxy survey. The Astronomical Journal, 136(6), 2563.
+  - De Blok, W. J. G., Walter, F., Brinks, E., Trachternach, C., Oh, S. H., & Kennicutt, R. C. (2008). High-resolution rotation curves and galaxy mass models from THINGS. The Astronomical Journal, 136(6), 2648.
 
 ## How to Use
 
