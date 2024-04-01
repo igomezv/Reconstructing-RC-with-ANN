@@ -48,7 +48,7 @@ If you use this work in your research, please cite:
 }
 ```
 
-If you find useful our `nnogada` framework:
+If you find useful our [`nnogada`](https://github.com/igomezv/Nnogada) framework:
 
 ```bibtex
 @article{nnogada,
