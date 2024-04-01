@@ -1,6 +1,6 @@
 # Reconstructing Rotation Curves with Neural Networks
 
-This repository presents a novel approach to reconstructing galaxy rotation curves using neural networks optimized with genetic algorithms. Our methodology employs the DEAP library with our [NNOGADA framework](https://github.com/igomezv/Nnogada) for efficient and effective tuning of neural network hyperparameters.
+This repository presents a novel approach to reconstructing galaxy rotation curves using neural networks optimized with genetic algorithms. Our methodology employs the DEAP library with our [`nnogada` framework](https://github.com/igomezv/Nnogada) for efficient and effective tuning of neural network hyperparameters.
 
 ## Overview
 
@@ -47,6 +47,8 @@ If you use this work in your research, please cite:
   pages={}
 }
 ```
+
+If you find useful our `nnogada` framework:
 
 ```bibtex
 @article{nnogada,
