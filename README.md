@@ -40,7 +40,7 @@ If you use this work in your research, please cite:
 ```bibtex
 @article{RCneural,
   title={Reconstructing Rotation Curves with Neural Networks},
-  author={Garcia-Arroyo, G. and Gomez-Vargas, I. and Vazquez, JA.},
+  author={Garcia-Arroyo, G. and Gómez-Vargas, I. and Vázquez, J. A.},
   journal={ArXiV:xxxxx},
   year={2024},
   volume={},
