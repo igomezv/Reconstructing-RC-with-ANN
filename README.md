@@ -8,11 +8,13 @@ Galaxy rotation curves are critical for understanding the mass distribution with
 
 ## Repository Contents
 
-- **models**: This directory contains binary `.h5` files of all the neural network models we have trained. These models are ready to use for predicting galaxy rotation curves.
-  
-- **figures**: Here, you'll find various plots related to the reconstruction of rotation curves and the visualization of loss functions over the training period. These figures illustrate the effectiveness and convergence of our models.
+- **ALL_RC_mass_models.ipynb** contains the hyperparameter tuning for all the galaxies using `nnogada`. **load_all_models.ipynb** allows to load the `.h5` saved models, trained in the **ALL_RC_mass_models.ipynb** notebook. **RC_neural_model.ipynb** and **RC_mass_models.ipynb** notebooks have preliminary/exploratory tests.
 
-- **data**: This directory hosts the original observational data of rotational curves from the THINGS survey, kindly provided by Prof. Erwing De Blok.
+- **models/**: This directory contains binary `.h5` files of all the neural network models we have trained. These models are ready to use for predicting galaxy rotation curves.
+  
+- **figures/**: Here, you'll find various plots related to the reconstruction of rotation curves and the visualization of loss functions over the training period. These figures illustrate the effectiveness and convergence of our models.
+
+- **data/**: This directory hosts the original observational data of rotational curves from the THINGS survey, kindly provided by Prof. Erwing De Blok.
   
   ### Data References
   - Walter, F., Brinks, E., De Blok, W. J. G., Bigiel, F., Kennicutt, R. C., Thornley, M. D., & Leroy, A. (2008). THINGS: The H i nearby galaxy survey. The Astronomical Journal, 136(6), 2563.
