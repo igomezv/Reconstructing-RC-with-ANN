@@ -16,7 +16,7 @@ You can use the .yml file to recreate the enviroment:
 
 ``conda env create -f environment.yml``
 
-Otherwise, you need to install numpy, seaborn, matplotlib, scikit-learn, astroNN, tensorflow==2.12. We recommend to use python 3.8 to avoid incompatibilities in some libraries.
+Otherwise, you must install ``conda install numpy seaborn matplotlib scikit-learn tensorflow==2.12`` and ``pip install astroNN``. We recommend using Python 3.8 (``conda create -n myenv python=3.8``) to avoid incompatibilities in some libraries.
 
 
 ## Repository Contents
