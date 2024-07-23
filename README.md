@@ -10,6 +10,15 @@ This repository presents a novel approach to reconstructing galaxy rotation curv
 
 Galaxy rotation curves are critical for understanding the mass distribution within galaxies. Traditional methods of analyzing these curves often involve extensive manual effort. Our project introduces a machine-learning approach to generate rotation curve reconstructions based on the observational data.
 
+## Usage
+
+You can use the .yml file to recreate the enviroment:
+
+``conda env create -f environment.yml``
+
+Otherwise, you need to install numpy, seaborn, matplotlib, scikit-learn, astroNN, tensorflow.
+
+
 ## Repository Contents
 
 - **ALL_RC_mass_models.ipynb** contains the hyperparameter tuning for all the galaxies using `nnogada`. **load_all_models.ipynb** allows to load the `.h5` saved models, trained in the **ALL_RC_mass_models.ipynb** notebook. **RC_neural_model.ipynb** and **RC_mass_models.ipynb** notebooks have preliminary/exploratory tests.
