@@ -10,13 +10,19 @@ This repository presents a novel approach to reconstructing galaxy rotation curv
 
 Galaxy rotation curves are critical for understanding the mass distribution within galaxies. Traditional methods of analyzing these curves often involve extensive manual effort. Our project introduces a machine-learning approach to generate rotation curve reconstructions based on the observational data.
 
-## Set-up
+## How to Use
 
-You can use the .yml file to recreate the enviroment:
+1. **Setting Up**: Clone this repository to your local machine. Ensure you have Python and the necessary libraries installed.
+    - You can use the .yml file to recreate the enviroment:
+    
+      - ``conda env create -f environment.yml``
+      
+      - Otherwise, you must install ``conda install numpy seaborn matplotlib scikit-learn tensorflow==2.12`` and ``pip install astroNN``.
+      We recommend using Python 3.8 (``conda create -n myenv python=3.8``) to avoid incompatibilities in some libraries.
+   
+3. **Running Models**: Navigate to the `models` directory. Use the provided scripts to load and run predictions using our pre-trained neural networks.
+4. **Visualization**: To view the reconstruction plots and loss functions, head to the `figures` directory. Additional scripts are available for generating new plots.
 
-``conda env create -f environment.yml``
-
-Otherwise, you must install ``conda install numpy seaborn matplotlib scikit-learn tensorflow==2.12`` and ``pip install astroNN``. We recommend using Python 3.8 (``conda create -n myenv python=3.8``) to avoid incompatibilities in some libraries.
 
 
 ## Repository Contents
@@ -33,11 +39,6 @@ Otherwise, you must install ``conda install numpy seaborn matplotlib scikit-lear
   - Walter, F., Brinks, E., De Blok, W. J. G., Bigiel, F., Kennicutt, R. C., Thornley, M. D., & Leroy, A. (2008). THINGS: The H i nearby galaxy survey. The Astronomical Journal, 136(6), 2563.
   - De Blok, W. J. G., Walter, F., Brinks, E., Trachternach, C., Oh, S. H., & Kennicutt, R. C. (2008). High-resolution rotation curves and galaxy mass models from THINGS. The Astronomical Journal, 136(6), 2648.
 
-## How to Use
-
-1. **Setting Up**: Clone this repository to your local machine. Ensure you have Python and the necessary libraries installed.
-2. **Running Models**: Navigate to the `models` directory. Use the provided scripts to load and run predictions using our pre-trained neural networks.
-3. **Visualization**: To view the reconstruction plots and loss functions, head to the `figures` directory. Additional scripts are available for generating new plots.
 
 ## Contributing
 
