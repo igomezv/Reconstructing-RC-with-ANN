@@ -13,13 +13,18 @@ Galaxy rotation curves are critical for understanding the mass distribution with
 ## How to Use
 
 1. **Setting Up**: Clone this repository to your local machine. Ensure you have Python and the necessary libraries installed.
-    - You can use the .yml file to recreate the enviroment:
-    
-      - ``conda env create -f environment.yml``
+    - You can use the .yml file to recreate the anaconda environment:
       
-      - Otherwise, you must install ``conda install numpy seaborn matplotlib scikit-learn tensorflow==2.12`` and ``pip install astroNN``.
-      We recommend using Python 3.8 (``conda create -n myenv python=3.8``) to avoid incompatibilities in some libraries.
-   
+        - ``conda env create -f environment.yml``
+        
+    - Otherwise, we recommend the following to avoid incompatibilities in some libraries:
+        - ``conda create -n neuralrcenv python=3.8``
+        - ``conda activate neuralrcenv``
+        -  ``conda install numpy seaborn matplotlib scikit-learn tensorflow==2.12``
+        -  ``pip install astroNN``.
+
+    - Finally, if you want to retrain the neural network models with genetic algorithms, please clone or download `nnogada` from https://github.com/igomezv/nnogada.
+
 3. **Running Models**: Navigate to the `models` directory. Use the provided scripts to load and run predictions using our pre-trained neural networks.
 4. **Visualization**: To view the reconstruction plots and loss functions, head to the `figures` directory. Additional scripts are available for generating new plots.
 
