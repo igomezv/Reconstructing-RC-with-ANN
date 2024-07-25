@@ -23,7 +23,7 @@ Galaxy rotation curves are critical for understanding the mass distribution with
         -  ``conda install numpy seaborn matplotlib scikit-learn tensorflow==2.12``
         -  ``pip install astroNN``.
 
-    - Finally, if you want to retrain the neural network models with genetic algorithms, please clone or download `nnogada` from https://github.com/igomezv/nnogada.
+    - Finally, if you want to retrain the neural network models with genetic algorithms, please clone or download `nnogada` from [here](https://github.com/igomezv/Nnogada).
 
 3. **Running Models**: Navigate to the `models` directory. Use the provided scripts to load and run predictions using our pre-trained neural networks.
 4. **Visualization**: To view the reconstruction plots and loss functions, head to the `figures` directory. Additional scripts are available for generating new plots.
