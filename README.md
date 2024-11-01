@@ -85,3 +85,17 @@ If you find useful our [`nnogada`](https://github.com/igomezv/Nnogada) framework
   url={https://doi.org/10.48550/arXiv.2209.02685}
 }
 ```
+
+- Method for reconstructions with neural networks:
+```bibtex
+@article{gomez2023neural,
+  title={Neural network reconstructions for the Hubble parameter, growth rate and distance modulus},
+  author={G{\'o}mez-Vargas, Isidro and Medel-Esquivel, Ricardo and Garc{\'\i}a-Salcedo, Ricardo and V{\'a}zquez, J Alberto},
+  journal={The European Physical Journal C},
+  volume={83},
+  number={4},
+  pages={304},
+  year={2023},
+  publisher={Springer}
+}
+```
