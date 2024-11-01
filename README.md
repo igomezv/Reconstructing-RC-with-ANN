@@ -60,12 +60,10 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @article{RCneural,
-  title={Reconstructing Rotation Curves with Neural Networks},
-  author={Garcia-Arroyo, G. and Gómez-Vargas, I. and Vázquez, J. A.},
-  journal={ArXiV:xxxxx},
-  year={2024},
-  volume={},
-  pages={}
+  title={Reconstructing rotation curves with artificial neural networks},
+  author={Garcia-Arroyo, Gabriela and G{\'o}mez-Vargas, Isidro and V{\'a}zquez, J Alberto},
+  journal={arXiv preprint arXiv:2404.05833},
+  year={2024}
 }
 ```
 
@@ -74,7 +72,7 @@ If you find useful our [`nnogada`](https://github.com/igomezv/Nnogada) framework
 ```bibtex
 @article{nnogada,
   title={Neural networks optimized by genetic algorithms in cosmology},
-  author={Gómez-Vargas, I. and Andrade, J. B. and Vázquez, J. A.},
+  author={G{\'o}mez-Vargas, I. and Andrade, J. B. and V{\'a}zquez, J. A.},
   journal={Physical Review D},
   volume={107},
   number={4},
